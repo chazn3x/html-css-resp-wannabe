@@ -81,6 +81,10 @@ img {
   .container,
   .row {
     width: 100%;
+    padding: 5px 0;
+  }
+  .row {
+    margin: 0;
   }
   #lezioni .row>.left,
   #lezioni .row>.right,
@@ -91,6 +95,14 @@ img {
   #why .row>.second,
   #why .row>.third {
     float: none;
-    width: 100%;
+    width: 90%;
+    margin: 20px auto;
+  }
+  img {
+    width: 40%;
+    height: auto;
+  }
+  .container:nth-of-type(odd) {
+    background-color: lightyellow;
   }
 }
